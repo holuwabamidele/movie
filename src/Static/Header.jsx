@@ -13,12 +13,12 @@ const Header = () => {
   return (
     <Nav>
       <Logo>
-        <Link to="/home">
+        <Link to="/">
           <img src={logo} alt="logo" />
         </Link>
       </Logo>
       <NavMenu>
-        <a href="/home">
+        <a href="/">
           <img src={homeicon} alt="logo" />
           <span>HOME</span>
         </a>
