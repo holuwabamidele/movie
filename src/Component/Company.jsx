@@ -13,47 +13,36 @@ import national1 from "../assets/videos/national-geographic.mp4";
 const Company = () => {
   return (
     <Container>
-      <a href="https://www.disneyinternational.com/">
-        <Card>
-          <img src={disney} alt="logo" />
-          <video autoPlay muted loop={true} playsInline={true}>
-            <source src={disney1} type="video/mp4" />
-          </video>
-        </Card>
-      </a>
-      <a href="https://www.pixar.com/">
-        <Card>
-          <img src={pixar} alt="" />
-          <video autoPlay muted loop={true} playsInline={true}>
-            <source src={pixar1} type="video/mp4" />
-          </video>
-        </Card>
-      </a>
-
-      <a href="https://www.marvel.com/">
-        <Card>
-          <img src={marvel} alt="" />
-          <video autoPlay muted loop={true} playsInline={true}>
-            <source src={marvel1} type="video/mp4" />
-          </video>
-        </Card>
-      </a>
-      <a href="https://www.starwars.com/">
-        <Card>
-          <img src={starwars} alt="" />
-          <video autoPlay muted loop={true} playsInline={true}>
-            <source src={starwars1} type="video/mp4" />
-          </video>
-        </Card>
-      </a>
-      <a href="https://www.nationalgeographic.com/">
-        <Card>
-          <img src={national} alt="" />
-          <video autoPlay muted loop={true} playsInline={true}>
-            <source src={national1} type="video/mp4" />
-          </video>
-        </Card>
-      </a>
+      <Card>
+        <img src={disney} alt="logo" />
+        <video autoPlay muted loop={true} playsInline={true}>
+          <source src={disney1} type="video/mp4" />
+        </video>
+      </Card>
+      <Card>
+        <img src={pixar} alt="" />
+        <video autoPlay muted loop={true} playsInline={true}>
+          <source src={pixar1} type="video/mp4" />
+        </video>
+      </Card>
+      <Card>
+        <img src={marvel} alt="" />
+        <video autoPlay muted loop={true} playsInline={true}>
+          <source src={marvel1} type="video/mp4" />
+        </video>
+      </Card>
+      <Card>
+        <img src={starwars} alt="" />
+        <video autoPlay muted loop={true} playsInline={true}>
+          <source src={starwars1} type="video/mp4" />
+        </video>
+      </Card>
+      <Card>
+        <img src={national} alt="" />
+        <video autoPlay muted loop={true} playsInline={true}>
+          <source src={national1} type="video/mp4" />
+        </video>
+      </Card>
     </Container>
   );
 };
