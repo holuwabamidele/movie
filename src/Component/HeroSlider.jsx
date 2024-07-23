@@ -58,10 +58,16 @@ const Carousel = styled(Slider)`
   .slick-prev {
     left: 75px;
     z-index: 100;
+    @media (max-width: 500px) {
+      left: 30px;
+    }
   }
   .slick-next {
     right: 75px;
     z-index: 100;
+    @media (max-width: 500px) {
+      left: 30px;
+    }
   }
 `;
 const Wrap = styled.div`
