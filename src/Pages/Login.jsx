@@ -2,13 +2,20 @@ import styled from "styled-components";
 import image1 from "../assets/images/cta-logo-one.svg";
 import image2 from "../assets/images/cta-logo-two.png";
 import image3 from "../assets/images/login-background.jpg";
+import Swal from "sweetalert2";
 
 const Login = () => {
   return (
     <Container>
       <Wrapper>
         <img src={image1} alt="" />
-        <button>Get All Here</button>
+        <button
+          onClick={() => {
+            Swal.fire("Details Coming Soon!");
+          }}
+        >
+          Get All Here
+        </button>
         <p>
           Get Premier Access to Raya and the last Dragon for an additional fee
           with a Disney+ subscription. As of 03/26/21, the price of Disney+ and

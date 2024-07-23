@@ -59,14 +59,14 @@ const Carousel = styled(Slider)`
     left: 75px;
     z-index: 100;
     @media (max-width: 500px) {
-      left: 30px;
+      left: 25px;
     }
   }
   .slick-next {
     right: 75px;
     z-index: 100;
     @media (max-width: 500px) {
-      left: 30px;
+      right: 25px;
     }
   }
 `;
