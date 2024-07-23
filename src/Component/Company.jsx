@@ -67,10 +67,14 @@ const Container = styled.div`
   grid-gap: 25px;
   gap: 25px;
   grid-template-columns: repeat(5, minmax(0, 1fr));
+
+  @media (max-width: 500px) {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
 `;
 const Card = styled.div`
-  width: 200px;
-  height: 50px;
+  /* width: 200px;
+  height: 50px; */
   padding-top: 56px;
   border-radius: 10px;
   border: 3px solid rgba(249, 249, 249, 0.1);
@@ -84,7 +88,7 @@ const Card = styled.div`
   img {
     display: block;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
     opacity: 1;
     position: absolute;
     width: 100%;
