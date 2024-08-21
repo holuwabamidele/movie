@@ -157,6 +157,7 @@ const Login = styled.a`
   border-radius: 4px;
   cursor: pointer;
   transition: all 0.2s ease 0s;
+  color: white;
   &:hover {
     background-color: #f9f9f9;
     color: #000;
